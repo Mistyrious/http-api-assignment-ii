@@ -1,0 +1,30 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.15.1",
+    "npm": "8.18.0"
+  },
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mistyrious/http-api-assignment-ii.git"
+  },
+  "author": "Claudia Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mistyrious/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/Mistyrious/http-api-assignment-ii#readme",
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
